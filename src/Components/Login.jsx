@@ -40,7 +40,6 @@ export default function Login() {
       });
 
       if (response.ok) {
-        const data = await response.json();
         setMessage('Login berhasil! Selamat datang, ' + formData.username);
       } else {
         const errorData = await response.json();
@@ -102,10 +101,10 @@ export default function Login() {
               checked={rememberMe}
               onChange={handleRememberMeChange}
               disabled={isLoading}
-            />
+            /> {``}
             Remember me
           </label>
-          <a href="#">Forgot Password?</a>
+          <span>Forgot Password?</span>
         </div>
         <button
           type="submit"
@@ -116,7 +115,7 @@ export default function Login() {
         </button>
 
         <div className="register-link">
-          <p>Don't have an account? <a href="#">Register</a></p>
+          <p>Don't have an account? <span>Register</span></p>
         </div>
       </form>
     </div>
