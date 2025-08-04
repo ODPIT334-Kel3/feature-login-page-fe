@@ -1,11 +1,11 @@
-import Login from "./Components/Login";
+import AdminDashboard from "./pages/admin/AdminDashboard";
 
 
-// Contoh kode JSX
+
 function App() {
   return (
     <div className="App">
-      <Login />
+     <AdminDashboard />
     </div>
   );
 }

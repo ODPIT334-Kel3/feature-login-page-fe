@@ -1,0 +1,31 @@
+# Direktori yang dihasilkan oleh build tools atau package managers
+node_modules
+build
+dist
+.env.local         # File environment lokal yang biasanya tidak ingin disertakan
+.env.development   # File environment pengembangan
+.env.test          # File environment pengujian
+
+# Direktori dan file yang terkait dengan Git
+.git
+.gitignore
+
+# Direktori dan file yang terkait dengan IDE (contoh untuk VS Code)
+.vscode
+.idea
+
+# File cache atau sementara
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.parcel-cache/      # Jika Anda menggunakan Parcel
+.DS_Store           # macOS specific
+Thumbs.db           # Windows specific
+
+# Direktori output build lokal (jika tidak sama dengan yang di Dockerfile)
+# Jika `npm run build` Anda menghasilkan ke folder 'output' dan Anda tidak menyalinnya ke Dockerfile
+# output/
+
+# Jika Anda memiliki file atau direktori lain yang tidak relevan untuk build produksi Anda
+# my-secret-data/
+# dev-only-script.js
