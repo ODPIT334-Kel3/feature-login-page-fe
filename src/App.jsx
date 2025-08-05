@@ -1,11 +1,11 @@
-import AdminDashboard from "./pages/admin/AdminDashboard";
+import LoginPage from "./pages/auth/LoginPage.jsx";
 
 
 
 function App() {
   return (
     <div className="App">
-     <AdminDashboard />
+     <LoginPage />
     </div>
   );
 }

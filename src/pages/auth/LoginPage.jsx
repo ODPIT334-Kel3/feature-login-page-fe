@@ -1,18 +1,18 @@
 import {
-    Anchor,
-    Button,
-    Checkbox,
-    Container,
-    Group,
-    Paper,
-    PasswordInput,
-    Text,
-    TextInput,
-    Title,
+  Anchor,
+  Button,
+  Checkbox,
+  Container,
+  Group,
+  Paper,
+  PasswordInput,
+  Text,
+  TextInput,
+  Title,
 } from '@mantine/core';
 import classes from '../../styles/AuthenticationTitle.module.css';
 
-export function LoginPage() {
+export default function LoginPage() {
   return (
     <Container size={420} my={40}>
       <Title ta="center" className={classes.title}>

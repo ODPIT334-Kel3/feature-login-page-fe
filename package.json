@@ -16,6 +16,7 @@
     "@mantine/hooks": "^8.2.2",
     "@tabler/icons-react": "^3.34.1",
     "dayjs": "^1.11.13",
+    "postcss-preset-mantine": "^1.18.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "styled-components": "^6.1.19"
