@@ -1,11 +1,11 @@
-import LoginPage from "./pages/auth/LoginPage.jsx";
+import RegisterPage from "./pages/auth/RegisterPage";
 
 
 
 function App() {
   return (
     <div className="App">
-     <LoginPage />
+     <RegisterPage />
     </div>
   );
 }
